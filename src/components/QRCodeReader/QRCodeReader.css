@@ -1,0 +1,13 @@
+.self {}
+
+.preview {
+  height: 360px;
+  width: 640px;
+}
+
+@media (orientation: portrait) {
+  .preview {
+    height: 640px;
+    width: 360px;
+  }
+}
