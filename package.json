@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-starter-kit",
+  "name": "@blinkmobile/busmq-marco-polo-example",
   "version": "3.0.0-alpha.0",
-  "description": "Get started with React, Redux, and React-Router!",
+  "description": "simple example of a BusMQ app that shows \"marco\" - \"polo\" behaviour",
   "main": "index.js",
   "engines": {
     "node": ">=4.2.0",
@@ -70,11 +70,6 @@
       }
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/davezuko/react-redux-starter-kit.git"
-  },
-  "author": "David Zukowski <david@zuko.me> (http://zuko.me)",
   "license": "MIT",
   "dependencies": {
     "babel-cli": "^6.5.1",
@@ -155,5 +150,21 @@
     "sinon-chai": "^2.8.0",
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.6.0"
-  }
+  },
+  "bin": {
+    "busmq-marco-polo-example": "compile.js"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blinkmobile/busmq-marco-polo-example.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/blinkmobile/busmq-marco-polo-example/issues"
+  },
+  "homepage": "https://github.com/blinkmobile/busmq-marco-polo-example#readme"
 }
